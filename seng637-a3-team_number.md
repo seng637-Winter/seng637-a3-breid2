@@ -27,13 +27,21 @@ DataUtilities.calculateColumnTotal:
 ![SENG_assign3_dfg drawio (1)](https://github.com/seng637-Winter/seng637-a3-breid2/assets/49459800/c2f7da55-dd01-4f36-9766-cf37d9f23481)
 
 DU-pairs:
+
   data: 1-3, 1-9, 1-13
+  
   column: 1-13
+  
   validRows: 2-10, 2-11
+  
   total: 4-5, 4-15, 6-15, 4-19, 6-19, 15-19
+  
   rowCount: 9-12
+  
   v: 10-11
+  
   row: 11-12, 11-13
+  
   n: 13-14, 13-15
 
 # 3 A detailed description of the testing strategy for the new unit test
