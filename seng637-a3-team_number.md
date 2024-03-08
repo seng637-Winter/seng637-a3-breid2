@@ -20,7 +20,8 @@ Text…
 
 DataUtilities.calculateColumnTotal:
 
-![image](https://github.com/seng637-Winter/seng637-a3-breid2/assets/49459800/d3372d3a-328a-4f16-b08d-dca2b2ce80bb)
+![image](https://github.com/seng637-Winter/seng637-a3-breid2/assets/49459800/67d6f73d-cc7c-4713-9333-778998ceef18)
+
 
 
 ![SENG_assign3_dfg drawio (1)](https://github.com/seng637-Winter/seng637-a3-breid2/assets/49459800/c2f7da55-dd01-4f36-9766-cf37d9f23481)
