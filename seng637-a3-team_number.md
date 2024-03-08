@@ -20,6 +20,12 @@ Text…
 
 Text…
 
+![image](https://github.com/seng637-Winter/seng637-a3-breid2/assets/49459800/c34e5cac-7242-49e1-8bc4-1041ceb0602f)
+
+
+![SENG_assign3_dfg drawio](https://github.com/seng637-Winter/seng637-a3-breid2/assets/49459800/82b750ad-61b0-44eb-be06-63ce8a640b52)
+
+
 # 3 A detailed description of the testing strategy for the new unit test
 
 Text…
