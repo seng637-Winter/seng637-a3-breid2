@@ -103,7 +103,7 @@ public class RangeTest {
 		assertEquals("Should return upperbound of range", 2, exampleRange.getUpperBound(),0.000000001d);
 	}
 	
-	@Test 
+    @Test 
     public void testValidRange() {
     	exampleRange = new Range(0, 10);
     	assertEquals("Should give a valid range ", 10, exampleRange.getLength(),0.000000001d);
@@ -415,7 +415,6 @@ public class RangeTest {
     	assertEquals("Check to see if two lower bound values are the same should be false", false, objRange.equals(objRange2));
     }
  
-
     @Test
     public void testCombineIgnoringNaNFirstNaNRange() {
         Range range1 = new Range(Double.NaN, Double.NaN);
@@ -440,8 +439,6 @@ public class RangeTest {
                 range1, Range.combineIgnoringNaN(range1, range2));
     }
     
-    // Carissa
-    // Add tests for getLength() to improve coverage
     @Test
     public void testGetLengthDifferentBounds() {
         Range range = new Range(-5, 10);
@@ -454,7 +451,6 @@ public class RangeTest {
         assertEquals("Length should be 0 for zero-length range", 0, range.getLength(), 0.000000001d);
     }
 
-    // Add tests for getLowerBound() and getUpperBound() to improve coverage
     @Test
     public void testGetLowerBoundDifferentRange() {
         Range range = new Range(-3, 7);
@@ -467,7 +463,6 @@ public class RangeTest {
         assertEquals("Upper bound should be 8", 8, range.getUpperBound(), 0.000000001d);
     }
 
-    // Add tests for expand(Range, double, double) to improve coverage
     @Test
     public void testExpandWithNegativeValues() {
         Range baseRange = new Range(-2, 2);
@@ -476,7 +471,6 @@ public class RangeTest {
         assertEquals("Expanded upper bound should be 3", 3, expandedRange.getUpperBound(), 0.000000001d);
     }
 
-    // Add tests for constrain(double) to improve coverage
     @Test
     public void testConstrainValueWithinRange() {
         Range range = new Range(0, 10);
@@ -495,7 +489,6 @@ public class RangeTest {
         assertEquals("Constrained value should be the lower bound (0)", 0, range.constrain(-5), 0.000000001d);
     }
     
-    // Carissa's Tests (rough drafts)
     @Test
     public void testGetLengthPositiveRange() {
         Range positiveRange = new Range(2, 5);
@@ -546,14 +539,9 @@ public class RangeTest {
 
     @Test
     public void testCombineIgnoringNaNWithRange2NaN() {
-        // Arrange
         Range range1 = null;
         Range range2 = new Range(Double.NaN, Double.NaN);
-
-        // Act
         Range result = Range.combineIgnoringNaN(range1, range2);
-
-        // Assert
         assertNull(result);
     }
     
